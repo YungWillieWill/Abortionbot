@@ -8,4 +8,4 @@ client.on("message", msg => {
     msg.reply("Abortion is wrong, dont do it!")
   }
 })
-client.login("NzQzMjQxNTgwNzE0MTMxNjI3.XzRzqQ.Ag2UpyweXGikCUOJH8pdw6kGv8E")
+client.login(process.env.token)
